@@ -1,4 +1,5 @@
 #!/bin/sh
+# added for test
 
 if [ -z "$1" ]; then
   /bin/echo "$0 <command line>"
