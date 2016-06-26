@@ -3,6 +3,7 @@ cat <<EOF > $tmp_src_filename
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
+#add for test
 int main()
 {
 	printf("%d\n", (int)sizeof(long));
